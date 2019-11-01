@@ -14,7 +14,7 @@ Precompiled header setup for CMake. Supported CMake generators:
 Create a `pchheader.{c,cpp}` and `pchheader.h` and add then to the CMake target:
 
 ```cmake
-add_library(target ... pchheader.cpp pchheeader.h)
+add_library(target ... pchheader.cpp pchheader.h)
 ```
 
 `pchheader.h` can include all the huge header files that are used everywhere in your project:
